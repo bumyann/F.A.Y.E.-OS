@@ -1,0 +1,87 @@
+[
+    {
+        "id": "e1dcf6c4-f6a7-46dd-adbe-42aed1bc5a2b",
+        "scriptName": "☆ Status Report — SFW ",
+        "findRegex": "\\[\\[STATUS:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #279493;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#279493;color:#d4efde;\">♥ f.a.y.e. status.exe</div><div style=\"padding:8px 10px;background:#d4efde;color:#081316;\"><div style=\"display:flex;gap:8px;margin-bottom:5px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; LOC:</span> $1</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; TIME:</span> $2</div></div><div style=\"display:flex;gap:8px;margin-bottom:5px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; WX:</span> $3</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; OST:</span> $4</div></div><hr style=\"border:none;border-top:1px dashed #357875;margin:6px 0;\"><div style=\"background:rgba(39,148,147,.12);border-radius:4px;padding:5px 7px;margin-bottom:5px;\"><div style=\"display:flex;gap:8px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; PHYS:</span> $5</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; MENT:</span> $6</div></div></div><hr style=\"border:none;border-top:1px dashed #357875;margin:6px 0;\"><div style=\"font-style:italic;margin-bottom:4px;\"><span style=\"font-weight:bold;color:#279493;\">&gt; THOUGHT:</span> $7</div><div><span style=\"font-weight:bold;color:#279493;\">&gt; QUEST:</span> $8</div><div style=\"margin-top:3px;\"><span style=\"font-weight:bold;color:#279493;\">&gt; TASK:</span> $9</div><div style=\"text-align:center;font-weight:bold;font-size:11px;padding:5px;margin-top:4px;border-top:1px solid #357875;color:#279493;\">[ AFFINITY: $10 ]</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "89800cea-7a23-4f96-8b5e-ff306735d10e",
+        "scriptName": "☆ Status Report — NSFW",
+        "findRegex": "\\[\\[STATUS-X:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #279493;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#279493;color:#d4efde;\">♥ f.a.y.e. status.exe [NSFW]</div><div style=\"padding:8px 10px;background:#d4efde;color:#081316;\"><div style=\"display:flex;gap:8px;margin-bottom:5px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; LOC:</span> $1</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; TIME:</span> $2</div></div><div style=\"display:flex;gap:8px;margin-bottom:5px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; WX:</span> $3</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; OST:</span> $4</div></div><hr style=\"border:none;border-top:1px dashed #357875;margin:6px 0;\"><div style=\"background:rgba(39,148,147,.12);border-radius:4px;padding:5px 7px;margin-bottom:5px;\"><div style=\"display:flex;gap:8px;margin-bottom:4px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; PHYS:</span> $5</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; MENT:</span> $6</div></div><div style=\"display:flex;gap:8px;margin-bottom:4px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; LUST:</span> $7</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; RESTRAINT:</span> $8</div></div><div style=\"display:flex;gap:8px;\"><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; SENSITIVITY:</span> $9</div><div style=\"flex:1;\"><span style=\"font-weight:bold;color:#279493;\">&gt; PRIVATES:</span> $10</div></div></div><hr style=\"border:none;border-top:1px dashed #357875;margin:6px 0;\"><div style=\"font-style:italic;margin-bottom:4px;\"><span style=\"font-weight:bold;color:#279493;\">&gt; THOUGHT:</span> $11</div><div style=\"margin-bottom:3px;\"><span style=\"font-weight:bold;color:#279493;\">&gt; QUEST:</span> $12</div><div style=\"margin-bottom:3px;\"><span style=\"font-weight:bold;color:#279493;\">&gt; TASK:</span> $13</div><div style=\"text-align:center;font-weight:bold;font-size:11px;padding:5px;margin-top:4px;border-top:1px solid #357875;color:#279493;\">[ AFFINITY: $14 ]</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "edf21294-565f-4f96-a016-c266838cb98e",
+        "scriptName": "☆ F.A.Y.E. Commentary ",
+        "findRegex": "\\[\\[FAYE:([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #279493;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;background:#279493;color:#d4efde;\">♥ faye chat.exe</div><div style=\"padding:8px 10px;background:#e8f5f4;color:#081316;\"><div style=\"display:flex;align-items:flex-start;gap:7px;\"><img src=\"https://files.catbox.moe/7aulpv.png\" style=\"width:36px;height:36px;object-fit:cover;object-position:center top;border-radius:5px;border:2px solid #279493;flex-shrink:0;\" alt=\"Faye\"><div style=\"flex:1;\"><div style=\"font-weight:bold;font-size:10px;letter-spacing:.04em;margin-bottom:3px;color:#279493;\">F.A.Y.E. (Faye) ♥</div><div style=\"border-radius:0 8px 8px 8px;padding:6px 9px;font-size:11px;line-height:1.5;background:#c8e8e6;color:#081316;\">$1</div><div style=\"font-size:10px;margin-top:6px;padding-top:5px;border-top:1px dashed #357875;line-height:1.6;color:#279493;\"><strong>THEORIES:</strong><br>$2</div></div></div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "f2d54b93-83ed-456a-8f79-dcbaa097ab86",
+        "scriptName": "☆ Transmigration Mode",
+        "findRegex": "\\[\\[TX:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #279493;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#081316;color:#a8d8d6;\">𐔌՞..՞𐦯 F.A.Y.E.</div><div style=\"font-size:10px;padding:2px 8px;letter-spacing:.08em;font-weight:bold;background:#279493;color:#ffffff;\">▶ $1</div><div style=\"padding:8px 10px;background:#e8f5f4;color:#081316;\"><div style=\"font-weight:bold;font-size:10px;letter-spacing:.08em;margin-bottom:5px;color:#279493;\">&gt; SYSTEM NOTIFICATION ————————</div><div style=\"font-size:11px;line-height:1.55;margin-bottom:7px;\">$2</div><hr style=\"border:none;border-top:1px dashed #357875;margin:5px 0;\"><div style=\"line-height:1.7;font-size:11px;\">$3</div><div style=\"margin-top:5px;font-size:11px;\"><span style=\"font-weight:bold;color:#279493;\">[AFFINITY]</span> $4</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "56e278cd-2a9c-40bb-a77e-10f79c178261",
+        "scriptName": "☆ Transmigration Mode — Character",
+        "findRegex": "\\[\\[TX-C:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #279493;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#081316;color:#a8d8d6;\">𐔌՞..՞𐦯 F.A.Y.E.</div><div style=\"font-size:10px;padding:2px 8px;letter-spacing:.08em;font-weight:bold;background:#279493;color:#ffffff;\">▶ $1</div><div style=\"padding:8px 10px;background:#e8f5f4;color:#081316;\"><div style=\"font-weight:bold;font-size:10px;letter-spacing:.08em;margin-bottom:5px;color:#279493;\">&gt; SYSTEM NOTIFICATION ————————</div><div style=\"font-size:11px;line-height:1.55;margin-bottom:7px;\">$2</div><hr style=\"border:none;border-top:1px dashed #357875;margin:5px 0;\"><div style=\"line-height:1.7;font-size:11px;\">$3</div><div style=\"margin-top:5px;font-size:11px;\"><span style=\"font-weight:bold;color:#279493;\">[AFFINITY]</span> $4</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    }
+]
