@@ -23,12 +23,11 @@ Meet **F.A.Y.E. (Frontend Assistant for Your Entertainment)** — a for-fun, mod
 ## What's In This Repo?
 
 ### Presets
-The latest version of the preset lives here. Stable releases are available on the [Releases](../../releases) page.
+The latest version of the preset lives here. Minor changes, renames, and modules I'm testing can be accessed, all of which are subject to change. "Official" releases are available on the [Releases](../../releases) page!
 
+### Themes and Regexes
 
-### Themes
-
-SillyTavern themes come in six colour variants. Lumiverse themes are coming soon!
+F.A.Y.E. OS comes with themes and regexes! While the themes are entirely optional, regexes **must** be used alongside the preset for V2.0 onwards if using modules like Status Report, Commentary, and Transmigration Mode!
 
 | Theme | Colour |
 |-------|--------|
@@ -39,28 +38,23 @@ SillyTavern themes come in six colour variants. Lumiverse themes are coming soon
 | F.A.Y.E. OS 𝜗ৎ | Dark Pink |
 | F.A.Y.E. OS ⟡ | Dark Wine |
 
-
-### Regexes
-
-Pick whichever matches your theme — or don't, no rules.
-
-| Regex Set | Colour |
-|-----------|--------|
-| F.A.Y.E. OS ☆ Regexes | Light Blue |
-| F.A.Y.E. OS ♡ Regexes | Light Pink |
-| F.A.Y.E. OS ☾ Regexes | Dark Blue |
-| F.A.Y.E. OS ☘︎ Regexes | Dark Teal |
-| F.A.Y.E. OS 𝜗ৎ Regexes | Dark Pink |
-| F.A.Y.E. OS ⟡ Regexes | Dark Wine |
+The themes and regexes match according to their corresponding symbol! Currently, themes are only available for SillyTavern — I'm working on porting them to Lumiverse eventually! 
 
 Want a different colour? Recolour requests are open — just drop an issue or DM me on Discord! 
+
 ---
 
 ## Compatibility
 
-Presets and regexes work on both **SillyTavern** and **Lumiverse**. Themes are currently SillyTavern-only — Lumiverse themes are in the works!
+F.A.Y.E. OS has been tested with **GLM, Gemini, DeepSeek, and Claude**. Probably works on everything else too. Probably. 
 
-Tested on **GLM, Gemini, DeepSeek, and Claude**. Probably works on everything else too. Probably.
+Personally, I use GLM 5.2 with these settings.
+
+| Sampler | Setting |
+|-------|--------|
+| Context Size | 80K |
+| Max Response | 10K |
+| Temperature | 0.85 |
 
 ---
 
@@ -68,7 +62,7 @@ Tested on **GLM, Gemini, DeepSeek, and Claude**. Probably works on everything el
 
 Big thank you to **Diaz** for testing this and making sure it actually worked before I embarrassed myself posting a broken file. You saved my aura.
 
-Shoutout to **Selenis** — her SELARU and HEX presets are what got me into prompt engineering in the first place. Blame her.
+Shoutout to **Selenis** — Her SELARU and HEX presets are what got me into prompt engineering in the first place. Blame her.
 
 ---
 
