@@ -48,11 +48,11 @@ Want a different colour? Recolour requests are open — just drop an issue or DM
 
 F.A.Y.E. OS has been tested with **GLM, Gemini, DeepSeek, and Claude**. Probably works on everything else too. Probably. 
 
-Personally, I use GLM 5.2 with these settings.
+Personally, I use GLM and Gemini with these settings.
 
 | Sampler | Setting |
 |-------|--------|
-| Context Size | 80K |
+| Context Size | 128K |
 | Max Response | 10K |
 | Temperature | 0.85 |
 
