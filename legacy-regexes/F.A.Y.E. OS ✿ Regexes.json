@@ -1,0 +1,87 @@
+[
+    {
+        "id": "ba464fbb-92d0-5855-a44d-829df1e01afb",
+        "scriptName": "✿ Status Report — SFW",
+        "findRegex": "\\[\\[STATUS:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #6b4430;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;color:#3d2618;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#6b4430;color:#e3f3e9;\">♥ f.a.y.e. status.exe</div><div style=\"padding:8px 10px;background:#eaf6ef;color:#3d2618;\"><div style=\"display:flex;gap:8px;margin-bottom:5px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; LOC:</span> $1</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; TIME:</span> $2</div></div><div style=\"display:flex;gap:8px;margin-bottom:5px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; WX:</span> $3</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; OST:</span> $4</div></div><hr style=\"border:none;border-top:1px dashed #a8d5bb;margin:6px 0;\"><div style=\"background:rgba(111,179,145,.2);border-radius:4px;padding:5px 7px;margin-bottom:5px;color:#3d2618;\"><div style=\"display:flex;gap:8px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; PHYS:</span> $5</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; MENT:</span> $6</div></div></div><hr style=\"border:none;border-top:1px dashed #a8d5bb;margin:6px 0;\"><div style=\"font-style:italic;margin-bottom:4px;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; THOUGHT:</span> $7</div><div style=\"color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; QUEST:</span> $8</div><div style=\"margin-top:3px;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; TASK:</span> $9</div><div style=\"text-align:center;font-weight:bold;font-size:11px;padding:5px;margin-top:4px;border-top:1px solid #a8d5bb;color:#6b4430;\">[ AFFINITY: $10 ]</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "c816aaad-abae-5afb-bf03-a0f7e37f5bc7",
+        "scriptName": "✿ Status Report — NSFW",
+        "findRegex": "\\[\\[STATUS-X:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #6b4430;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;color:#3d2618;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#6b4430;color:#e3f3e9;\">♥ f.a.y.e. status.exe [NSFW]</div><div style=\"padding:8px 10px;background:#eaf6ef;color:#3d2618;\"><div style=\"display:flex;gap:8px;margin-bottom:5px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; LOC:</span> $1</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; TIME:</span> $2</div></div><div style=\"display:flex;gap:8px;margin-bottom:5px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; WX:</span> $3</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; OST:</span> $4</div></div><hr style=\"border:none;border-top:1px dashed #a8d5bb;margin:6px 0;\"><div style=\"background:rgba(111,179,145,.2);border-radius:4px;padding:5px 7px;margin-bottom:5px;color:#3d2618;\"><div style=\"display:flex;gap:8px;margin-bottom:4px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; PHYS:</span> $5</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; MENT:</span> $6</div></div><div style=\"display:flex;gap:8px;margin-bottom:4px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; LUST:</span> $7</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; RESTRAINT:</span> $8</div></div><div style=\"display:flex;gap:8px;color:#3d2618;\"><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; SENSITIVITY:</span> $9</div><div style=\"flex:1;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; PRIVATES:</span> $10</div></div></div><hr style=\"border:none;border-top:1px dashed #a8d5bb;margin:6px 0;\"><div style=\"font-style:italic;margin-bottom:4px;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; THOUGHT:</span> $11</div><div style=\"margin-bottom:3px;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; QUEST:</span> $12</div><div style=\"margin-bottom:3px;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">&gt; TASK:</span> $13</div><div style=\"text-align:center;font-weight:bold;font-size:11px;padding:5px;margin-top:4px;border-top:1px solid #a8d5bb;color:#6b4430;\">[ AFFINITY: $14 ]</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "65c97756-b37f-5e06-9952-d1fe693e48a6",
+        "scriptName": "✿ F.A.Y.E. Commentary",
+        "findRegex": "\\[\\[FAYE:([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #6b4430;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;color:#3d2618;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;background:#6b4430;color:#e3f3e9;\">♥ faye chat.exe</div><div style=\"padding:8px 10px;background:#f4fbf7;color:#3d2618;\"><div style=\"display:flex;align-items:flex-start;gap:7px;color:#3d2618;\"><img src=\"https://files.catbox.moe/7aulpv.png\" style=\"width:36px;height:36px;object-fit:cover;object-position:center top;border-radius:5px;border:2px solid #6b4430;flex-shrink:0;\" alt=\"Faye\"><div style=\"flex:1;color:#3d2618;\"><div style=\"font-weight:bold;font-size:10px;letter-spacing:.04em;margin-bottom:3px;color:#6b4430;\">F.A.Y.E. (Faye) ♥</div><div style=\"border-radius:0 8px 8px 8px;padding:6px 9px;font-size:11px;line-height:1.5;background:#d6efe0;color:#3d2618;\">$1</div><div style=\"font-size:10px;margin-top:6px;padding-top:5px;border-top:1px dashed #a8d5bb;line-height:1.6;color:#6b4430;\"><strong style=\"color:#6b4430 !important;\">THEORIES:</strong><br>$2</div></div></div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "c6d90e9c-4f64-5f5f-80c0-0510ca422bcc",
+        "scriptName": "✿ Transmigration Mode",
+        "findRegex": "\\[\\[TX:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #6b4430;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;color:#3d2618;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#3d2618;color:#bfe6cf;\">𐔌՞..՞𐦯 F.A.Y.E.</div><div style=\"font-size:10px;padding:2px 8px;letter-spacing:.08em;font-weight:bold;background:#9fd4b6;color:#3d2618;\">▶ $1</div><div style=\"padding:8px 10px;background:#f4fbf7;color:#3d2618;\"><div style=\"font-weight:bold;font-size:10px;letter-spacing:.08em;margin-bottom:5px;color:#6b4430;\">&gt; SYSTEM NOTIFICATION ————————</div><div style=\"font-size:11px;line-height:1.55;margin-bottom:7px;color:#3d2618;\">$2</div><hr style=\"border:none;border-top:1px dashed #a8d5bb;margin:5px 0;\"><div style=\"line-height:1.7;font-size:11px;color:#3d2618;\">$3</div><div style=\"margin-top:5px;font-size:11px;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">[AFFINITY]</span> $4</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    },
+    {
+        "id": "4f6b7c82-a364-5ff6-8041-50c151f06995",
+        "scriptName": "✿ Transmigration Mode — Character",
+        "findRegex": "\\[\\[TX-C:([^|]+)\\|([^|]+)\\|([^|]+)\\|([^\\]]+)\\]\\]",
+        "replaceString": "<div style=\"border-radius:6px;overflow:hidden;border:2px solid #6b4430;font-family:'Courier New',Courier,monospace;font-size:11px;margin-bottom:1rem;color:#3d2618;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:3px 8px;font-size:11px;font-weight:bold;letter-spacing:.04em;background:#3d2618;color:#bfe6cf;\">𐔌՞..՞𐦯 F.A.Y.E.</div><div style=\"font-size:10px;padding:2px 8px;letter-spacing:.08em;font-weight:bold;background:#9fd4b6;color:#3d2618;\">▶ $1</div><div style=\"padding:8px 10px;background:#f4fbf7;color:#3d2618;\"><div style=\"font-weight:bold;font-size:10px;letter-spacing:.08em;margin-bottom:5px;color:#6b4430;\">&gt; SYSTEM NOTIFICATION ————————</div><div style=\"font-size:11px;line-height:1.55;margin-bottom:7px;color:#3d2618;\">$2</div><hr style=\"border:none;border-top:1px dashed #a8d5bb;margin:5px 0;\"><div style=\"line-height:1.7;font-size:11px;color:#3d2618;\">$3</div><div style=\"margin-top:5px;font-size:11px;color:#3d2618;\"><span style=\"font-weight:bold;color:#6b4430;\">[AFFINITY]</span> $4</div></div></div>",
+        "trimStrings": [],
+        "placement": [
+            2
+        ],
+        "disabled": false,
+        "markdownOnly": true,
+        "promptOnly": false,
+        "runOnEdit": true,
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null
+    }
+]
