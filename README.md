@@ -41,7 +41,7 @@ F.A.Y.E. OS comes with themes and regexes! While the themes are entirely optiona
 
 The themes and regexes match according to their corresponding symbol! Currently, themes are only available for SillyTavern — I'm working on porting them to Lumiverse eventually! 
 
-Want a different colour? Recolour requests are still open — just drop an issue or DM me on Discord! That said, between school and a million other things, I might not get to them quickly. If you don't feel like waiting on me, check out the [Customization Guide](CUSTOMIZING.md) to recolour F.A.Y.E. OS yourself (there's even a lazy route where an AI does the heavy lifting).
+Want a different colour? Recolour requests are still open — just drop an issue or DM me on Discord! That said, between school and a million other things, I might not get to them quickly. If you don't feel like waiting on me, check out the [Customization Guide](SillyTavernThemeGuide.md) to recolour F.A.Y.E. OS yourself (there's even a lazy route where an AI does the heavy lifting).
 
 Made your own F.A.Y.E. OS theme or regex set? Feel free to open a pull request or DM me on Discord to get it added to the repo! Credit goes to you, obviously.
 
