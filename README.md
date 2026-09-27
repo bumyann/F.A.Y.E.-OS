@@ -51,7 +51,7 @@ Made your own F.A.Y.E. OS theme or regex set? Feel free to open a pull request o
 
 F.A.Y.E. OS has been tested with **GLM, Gemini, DeepSeek, and Claude**. Probably works on everything else too. Probably. 
 
-Personally, I use GLM and Gemini with these settings.
+Personally, I use whatever LLM doesn't cockblock me with these settings.
 
 | Sampler | Setting |
 |-------|--------|
@@ -59,13 +59,7 @@ Personally, I use GLM and Gemini with these settings.
 | Max Response | 10K |
 | Temperature | 0.85 |
 
----
 
-## Credits
-
-Big thank you to **Diaz** for testing this and making sure it actually worked before I embarrassed myself posting a broken file. You saved my aura.
-
-Shoutout to **Selenis** — Her SELARU and HEX presets are what got me into prompt engineering in the first place. Blame her.
 
 ---
 
